@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css'
 
-function Header({ user }) {
+const Header = ({ user }) => {
   const { name, status } = user
   return (
     <header className="Header">
